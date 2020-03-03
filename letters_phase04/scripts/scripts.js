@@ -6,5 +6,4 @@ function mostrar(){
 
   //mostrem el nom complert a la consola
   console.log("Partim del nom: " + myFullName.join(""));
-
 }
