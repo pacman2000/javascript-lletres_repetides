@@ -18,23 +18,6 @@ function mostrar(){
       newName.set(letter, 1);
     }   
   }
-
   console.log("Partim del nom: " + myName.join(""));
   console.log(newName);
 }
-
-
-
-//es pot fer tambè amb una map function
-/* 
-function mostrar(){
-  var myName = Array.from("AMPARO");
-  var newName = new Map();   
-  
-  myName.map(function(letter) {
-    newName[letter] = (newName[letter] || 0) + 1;
-  });
-
-  console.log("Partim del nom: " + myName.join(""));
-  console.log(newName);
-} */
